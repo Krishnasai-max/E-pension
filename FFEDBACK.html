@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<style>
+body
+{
+background-color:lightblue;
+}
+</style> <body>
+<table border="0" width="100%">
+<tr><td height="21" class="PageHeading" align="center"
+>Feedback Form</td></tr>
+<tr> <td> <hr/> </td> </tr>
+</table>
+<div id="ContentPlaceHolder1_divinput">
+<table width="95%" align="center" border="0"
+cellspacing="10">
+<tr><td class="DarkBlue">We welcome your feedback and
+suggestions about the Portal to help us improve further and serve you better.
+<P>Any query, of generic nature, related to content, design, service or
+technological issues with respect to the Pensioners' Portal can be sent to
+through this customized <STRONG>Feedback</STRONG> interface.</P>
+</td></tr>
+<table width="80%" align="center" border="0" cellspacing="10">
+<tr>
+<td align="left" class="auto-style2"><span class="CompulsoryField
+">* </span>Name</td><td>:</td>
+<td align="left">
+<input name="ctl00$ContentPlaceHolder1$txtname" type="text"
+maxlength="40" id="ContentPlaceHolder1_txtname" onKeyPress="return
+Checkname(this)" />
+<span id="ContentPlaceHolder1_rf_txtname"
+style="color:Red;visibility:hidden;">Please enter your name.</span>
+</td>
+</tr>
+<tr>
+<td align="left" class="autostyle2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Id</td><td>:</td>
+<td align="left"><input
+name="ctl00$ContentPlaceHolder1$txtEmail" type="text" maxlength="40"
+id="ContentPlaceHolder1_txtEmail" onKeyPress=" return Checkemail()" />
+</td>
+</tr>
+<tr>
+<td align="left" class="autostyle2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ContactNo.</td><td>:</td>
+<td align="left"><input
+name="ctl00$ContentPlaceHolder1$txtContactNo" type="text"
+maxlength="10" id="ContentPlaceHolder1_txtContactNo" minlength="4"
+onKeyPress=" return CheckContactNo()" />
+<span id="ContentPlaceHolder1_rf_txtcontactno"
+style="color:Red;visibility:hidden;">Please enter your contact no.</span>
+</td>
+</tr>
+<tr>
+<td align="left" class="auto-style2"><span class="CompulsoryField
+">* </span>Your Suggestion/Fe
+edback</td><td>:</td>
+<td align="left"><textarea
+name="ctl00$ContentPlaceHolder1$txtComments" rows="3" cols="20"
+id="ContentPlaceHolder1_txtComments" onKeyPress="return Checksubject()"
+style="width:300px;">
+</textarea>
+<span id="ContentPlaceHolder1_rf_txtcomments"
+style="color:Red;visibility:hidden;">Please enter your suggestion.</span>
+</td>
+</tr>
+<tr><a href="submit.html"><button style="background-color:
+skyblue"><strong>Submit</strong></button></a>
+</tr>
+<tr><td ><input type="submit"
+name="ctl00$ContentPlaceHolder1$btnreset" value="Clear All"
+onclick="javascript:WebForm_DoPostBackWithOptions(new
+WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnreset&qu
+ot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))"
+id="ContentPlaceHolder1_btnreset" class="SilverButton" /></td>
+</tr>
+</table>
+</body>
+</head>
+</html>

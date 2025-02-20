@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>registration form</title>
+<style>
+body {
+background-image:url("pension3.png");
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+}
+.but
+{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<br>
+<h1><center>REGISTRATIONFORM</center></h1>
+<center>
+<form action="regster.html">
+<table>
+<tr>
+<td><label><strong> Name : </strong></label></td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td><label><strong> Date of birth : </strong></label></td>
+<td><input type="text" name="dob" required="required" placeholder="DDMM-YYYY"> </td>
+</tr>
+<tr>
+<td><label><strong> Address : </strong></label></td>
+<td><input type="text" name="add"></td>
+</tr>
+<tr>
+<td><label for="phone"><strong>Mobile No :</strong></label></td>
+<td> <input type="tel" id="phone" name="mobileno" pattern="[0-9]{10}"
+required="required"></td>
+</tr>
+<tr>
+<td><label for="email"><strong>Email Address :</strong></label></td>
+<td> <input type="email" id="email" name="email" required="required"
+placeholder="pensioner@gmail.com"></td>
+</tr>
+<tr>
+<br>
+<td><label for="psw"><strong>Password :</strong></label></td>
+<td> <input type="password" id="psw" name="psw"
+required="required"></td>
+<mbr></tr>
+<tr>
+<td><label for="psw"><strong>Conform Password :</strong></label></td>
+<td> <input type="password" id="psw" name="cpsw"
+required="required"></td>
+</tr>
+<tr>
+<td><label><strong>PAN Number :</strong></label></td>
+<td> <input type="text" id="pan" name="pan" pattern="[A-Z]{5}[0-9]{4}[AZ]{1}" required="required"></td>
+</tr>
+<tr>
+<td><label> <strong>Select Your Gender :</strong><br> </label></td>
+<td>
+<br>
+<input type="radio" id="male" name="gender"
+value="male"><strong>Male</strong>
+<input type="radio" id="female" name="gender"
+value="female"><strong>Female</strong><br>
+<br>
+</td>
+</tr>
+<tr>
+<td><label> <strong>Comments : </strong></label></td>
+<td><textarea rows="4" cols="50" name="comment" required="required"
+placeholder="Enter Your Comments here..."></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<br><br>
+<div class="but">
+<input type="submit" name="submit" value="Register" style="backgroundcolor: white" action="regster.html">
+&emsp;&emsp;<input type="reset" name="reset" value="Reset"
+style="background-color: white">
+</div>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
